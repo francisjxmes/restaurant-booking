@@ -23,10 +23,37 @@
       </nav>
     </header>
     <main>
-
+      <section class="booking-section">
+        <h2 class="booking-cta">Book a table</h2>
+    
+        <form class="booking-form" action="#" method="POST">
+          <label for="party-size">Party Size</label>
+          <select id="party-size" name="party-size" required>
+            <option value="" disabled selected>Select</option>
+            <option value="1">1 person</option>
+            <option value="2">2 people</option>
+            <option value="3">3 people</option>
+            <option value="4">4 people</option>
+            <option value="5">5 people</option>
+            <option value="6+">6 people</option>
+          </select>
+    
+          <label for="date">Date</label>
+          <input type="date" id="date" name="date" required>
+    
+          <label for="time">Time</label>
+          <input type="time" id="time" name="time" required>
+    
+          <button type="submit" class="btn">Book Now</button>
+        </form>
+      </section>
     </main>
     <footer>
-
+      <h4>Find Us</h4>
+      <p>2 Central Plaza, Temple Bar, Dublin, D02 TOX4 </p>
+      <p>Tel: +353 1 234 5678</p>
+      <p>Opening Hours:</p>
+      <p>Mon-Fri: 16:00 - 21:00, Sat-Sun: 13:00 - 22:00</p>
     </footer>
   </body>
 </html>
