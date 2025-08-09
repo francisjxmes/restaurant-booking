@@ -102,3 +102,49 @@ header {
   display: inline-block;
   margin-top: 30px;
 }
+
+/* Booking form styles */
+.booking-section {
+  text-align: center;
+  padding: 60px 15px;
+}
+
+.booking-section h2 {
+  color: #e03616;
+  margin-bottom: 60px;
+}
+
+.booking-cta {
+  font-family: 'Pirata One';
+  font-size: 40px;
+}
+
+.booking-form {
+  max-width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.booking-form label {
+  font-size: 16px;
+  text-align: center;
+  color: #e8dad3;
+}
+
+.booking-form select,
+.booking-form input {
+  padding: 12px;
+  background-color: #e8dad3;
+  color: #1F1E1F;
+  border-style: none;
+  border-radius: 25px;
+}
+
+.booking-form .btn {
+  border: none;
+  padding-top: 15px;
+  font-family: 'Roboto Mono' monospace;
+  font-size: 16px;
+}
