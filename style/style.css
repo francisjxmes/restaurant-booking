@@ -241,3 +241,30 @@ h4 {
   color: #e03616;
   font-size: 1.3rem;
 }
+
+/* Footer styling */
+footer {
+  padding-top: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #111111;
+  color: #e8dad3;
+  text-align: center;
+}
+
+footer {
+  background-image: radial-gradient(#1f1e1f 1.5px, transparent 1.5px);
+  background-size: 20px 20px;
+}
+
+footer p {
+  margin-top: 30px;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+}
+
+footer h4 {
+  font-family: 'Pirata One';
+  font-size: 2rem;
+}
