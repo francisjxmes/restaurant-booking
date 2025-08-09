@@ -20,6 +20,15 @@ header {
   -webkit-backdrop-filter: blur(0.8px);
 }
 
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: linear-gradient(to bottom, rgba(31, 30, 31, 0.85), rgba(31, 30, 31, 0));
+  backdrop-filter: blur(0.8px);
+  -webkit-backdrop-filter: blur(0.8px);
+}
+
 /* Hero and navigation styles */
 .hero {
   position: relative;
@@ -337,5 +346,35 @@ footer h4 {
   .side-panel,
   .overlay {
     display: none;
+  }
+
+  .nav-links a {
+    color: #e8dad3;
+    background-color: #e03616;
+    padding: 10px 45px 10px 45px;
+    border-radius: 25px;
+  }  
+}
+
+@media (min-width: 1024px) {
+  .intro p {
+    width: 60%;
+    line-height: 1.8rem;
+    font-size: 1.5rem;
+  }
+
+  .intro {
+    padding-top: 100px;
+    padding-left: 250px;
+  }
+
+  .logo {
+    font-size: 5rem;
+  }
+
+  .btn {
+    font-size: 2rem;
+    padding: 2rem;
+    border-radius: 50px;
   }
 }
