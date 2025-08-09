@@ -29,13 +29,13 @@ header {
 
 .hero-text {
   position: absolute;
+  color: #e8dad3;
   top: 50%;
   left: 50%;
-  transform: transalte(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
   z-index: 2;
-  background: rgba(255,0,0,0.2);
-  border: 1px solid lime;
+  color: #e03616;
 }
 
 .hero::before {
