@@ -74,3 +74,31 @@ header {
   text-decoration: none;
   font-weight: bold;
 }
+
+/* Introduction section */
+.intro {
+  color: #e8dad3;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 100px;
+  margin-top: 30px;
+  line-height: 1.2rem;
+  letter-spacing: 0.15em;
+  max-width: 95vw;
+}
+
+.intro p {
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+.btn {
+  text-decoration: none;
+  color: #e8dad3;
+  background-color: #E03616;
+  padding: 10px 45px 10px 45px;
+  border-radius: 25px;
+  display: inline-block;
+  margin-top: 30px;
+}
