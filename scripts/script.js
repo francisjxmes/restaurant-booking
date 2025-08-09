@@ -16,12 +16,12 @@ $(document).ready(function () {
   });
 
   $('.menu-toggle').click(function() {
-    $('.side-panel').css('left', '0');
+    $('.side-panel').css('right', '0');
     $('.overlay').fadeIn();
   });
 
   $('.close-btn, .overlay').click(function() {
-    $('.side-panel').css('left', '-250px');
+    $('.side-panel').css('right', '-250px');
     $('.overlay').fadeOut();
   });
 });
