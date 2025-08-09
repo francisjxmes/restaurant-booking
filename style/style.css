@@ -75,6 +75,57 @@ header {
   font-weight: bold;
 }
 
+/* Hamburger icon (hidden on desktop) */
+.menu-toggle {
+  font-size: 2rem;
+  color: #e8dad3;
+  cursor: pointer;
+  display: none;
+}
+
+/* Side panel */
+.side-panel {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background: #111;
+  padding-top: 2rem;
+  transition: left 0.3s ease;
+  z-index: 1001;
+}
+
+.side-panel a {
+  display: block;
+  padding: 1rem;
+  color: #e8dad3;
+  text-decoration: none;
+  border-bottom: 1px solid #333;
+}
+
+.side-panel a:hover {
+  background: #333;
+}
+
+.close-btn {
+  font-size: 2rem;
+  color: #e8dad3;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  display: block;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: 1000;
+}
+
 /* Introduction section */
 .intro {
   color: #e8dad3;
@@ -268,4 +319,23 @@ footer p {
 footer h4 {
   font-family: 'Pirata One';
   font-size: 2rem;
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+
+@media (min-width: 769px) {
+  .side-panel,
+  .overlay {
+    display: none;
+  }
 }
