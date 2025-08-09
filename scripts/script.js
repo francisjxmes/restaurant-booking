@@ -14,4 +14,14 @@ $(document).ready(function () {
     $('#' + target).fadeIn(200);
     $(this).addClass('active');
   });
+
+  $('.menu-toggle').click(function() {
+    $('.side-panel').css('left', '0');
+    $('.overlay').fadeIn();
+  });
+
+  $('.close-btn, .overlay').click(function() {
+    $('.side-panel').css('left', '-250px');
+    $('.overlay').fadeOut();
+  });
 });
