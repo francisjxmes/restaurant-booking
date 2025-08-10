@@ -47,6 +47,12 @@ header {
   color: #e03616;
 }
 
+.hero-text h1 {
+  font-family: 'UnifrakturMaguntia';
+  font-size: 3rem;
+  color: #e8dad3;
+}
+
 .hero::before {
   content: '';
   position: absolute;
@@ -353,7 +359,28 @@ footer h4 {
     background-color: #e03616;
     padding: 10px 45px 10px 45px;
     border-radius: 25px;
-  }  
+  }
+  
+  .intro p {
+    width: 80%;
+    line-height: 1.7rem;
+    font-size: 1.3rem;
+  }
+
+  .intro {
+    padding-top: 50px;
+    padding-left: 125px;
+  }
+
+  .logo {
+    font-size: 4.5rem;
+  }
+
+  .btn {
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 50px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -377,4 +404,28 @@ footer h4 {
     padding: 2rem;
     border-radius: 50px;
   }
+
+  form button {
+    font-size: 2rem;
+  }
+
+  .hero-text h1 {
+    font-size: 5rem;
+    max-width: 500px;
+  }
+
+  .menu-section {
+    width: 70%;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .booking-section {
+    width: 100%;
+  }
+
 }
