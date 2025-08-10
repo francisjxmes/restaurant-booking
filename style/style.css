@@ -384,9 +384,10 @@ footer h4 {
   }
 
   form {
-    border: 3px solid #E03616;
+    /* border: 3px solid #E03616; */
     padding: 60px;
     border-radius: 60px;
+    background-color: #111111;
   }
 }
 
@@ -422,7 +423,7 @@ footer h4 {
   }
 
   .menu-section {
-    width: 70%;
+    width: 50%;
   }
 
   main {
