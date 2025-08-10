@@ -173,6 +173,7 @@ header {
 .booking-section {
   text-align: center;
   padding: 60px 15px;
+  margin-bottom: 50px;
 }
 
 .booking-section h2 {
@@ -380,6 +381,12 @@ footer h4 {
     font-size: 1.5rem;
     padding: 1.5rem;
     border-radius: 50px;
+  }
+
+  form {
+    border: 3px solid #E03616;
+    padding: 60px;
+    border-radius: 60px;
   }
 }
 
