@@ -40,4 +40,11 @@ $(document).ready(function () {
       }
     });
   });
+
+  // Booking confirmation pop up
+  $('.booking-form').submit(function(e){
+    e.preventDefault();
+    alert('Thank you for your booking!');
+  });
+  
 });
