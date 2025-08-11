@@ -200,6 +200,10 @@ header {
   color: #e8dad3;
 }
 
+#name {
+  color: #1F1E1F;
+}
+
 .booking-form select,
 .booking-form input {
   padding: 12px;
