@@ -15,6 +15,7 @@ $(document).ready(function () {
     $(this).addClass('active');
   });
 
+  // Side panel 
   $('.menu-toggle').click(function() {
     $('.side-panel').css('right', '0');
     $('.overlay').fadeIn();
@@ -23,5 +24,20 @@ $(document).ready(function () {
   $('.close-btn, .overlay').click(function() {
     $('.side-panel').css('right', '-250px');
     $('.overlay').fadeOut();
+  });
+
+  // Search filtering
+  $('#menu-search').on('keyup', function() {
+    let searchText = $(this).val().toLowerCase();
+
+    $('.item-container').each(function(){
+      let itemText = $(this).text().toLowerCase();
+
+      if (itemText.includes(searchText)) {
+        $(this).show();
+      } else {
+        $(this).hide();
+      }
+    });
   });
 });
