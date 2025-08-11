@@ -238,6 +238,23 @@ header {
   border-color: #e03616;
 }
 
+.menu-navigation {
+  display: flex;
+  flex-direction: column;
+}
+
+#menu-search {
+  padding: 5px 10px 5px 10px;
+  border-radius: 25px;
+  border-style: none;
+  background-color: #e8dad3;
+  align-items: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
 h4 {
   font-family: 'Roboto Mono', monospace;
   font-size: 18px;
